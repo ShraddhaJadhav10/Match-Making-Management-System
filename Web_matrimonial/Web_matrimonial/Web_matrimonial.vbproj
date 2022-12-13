@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D89A9956-64C7-4492-8B02-53AEADBBB2CD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Web_matrimonial</RootNamespace>
+    <AssemblyName>Web_matrimonial</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Web_matrimonial.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Web_matrimonial.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\CrystalDecisions.Web\10.5.3700.0__692fbea5521e1304\CrystalDecisions.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="catering\catalogue.html" />
+    <Content Include="catering\contact.html" />
+    <Content Include="catering\css\layout.css" />
+    <Content Include="catering\css\prettyPhoto.css" />
+    <Content Include="catering\css\reset.css" />
+    <Content Include="catering\css\style.css" />
+    <Content Include="catering\faq.html" />
+    <Content Include="catering\images\banner-1.jpg" />
+    <Content Include="catering\images\banner-2.jpg" />
+    <Content Include="catering\images\banner-3.jpg" />
+    <Content Include="catering\images\button1-tail.gif" />
+    <Content Include="catering\images\button2-tail.gif" />
+    <Content Include="catering\images\magnify.png" />
+    <Content Include="catering\images\marker-1.png" />
+    <Content Include="catering\images\marker-2.png" />
+    <Content Include="catering\images\page2-img1.jpg" />
+    <Content Include="catering\images\page2-img10.jpg" />
+    <Content Include="catering\images\page2-img2.jpg" />
+    <Content Include="catering\images\page2-img3.jpg" />
+    <Content Include="catering\images\page2-img4.jpg" />
+    <Content Include="catering\images\page2-img5.jpg" />
+    <Content Include="catering\images\page2-img6.jpg" />
+    <Content Include="catering\images\page2-img7.jpg" />
+    <Content Include="catering\images\page2-img8.jpg" />
+    <Content Include="catering\images\page2-img9.jpg" />
+    <Content Include="catering\images\page3-img1.jpg" />
+    <Content Include="catering\images\page3-img2.jpg" />
+    <Content Include="catering\images\page3-img3.jpg" />
+    <Content Include="catering\images\page3-img4.jpg" />
+    <Content Include="catering\images\page3-img5.jpg" />
+    <Content Include="catering\images\page3-img6.jpg" />
+    <Content Include="catering\images\page3-img7.jpg" />
+    <Content Include="catering\images\page3-img8.jpg" />
+    <Content Include="catering\images\prettyPhoto\bride.jpeg" />
+    <Content Include="catering\images\prettyPhoto\couplepic2.jpg" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\ferepic.jpeg" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\handpic.jpg" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\handpic2.jpeg" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\homepage21.jpg" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\homepagehand.jpg" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\img11.jpeg" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\img20.jpeg" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\photo5.jpeg" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\photo6.jpg" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\photo7.jpg" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\photo8.png" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\s51.jpg" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="catering\images\prettyPhoto\dark_rounded\unnamed.jpg" />
+    <Content Include="catering\images\prettyPhoto\dark_square\bridepic.jpg" />
+    <Content Include="catering\images\prettyPhoto\dark_square\kanyadan1.png" />
+    <Content Include="catering\images\prettyPhoto\dark_square\photo4.jpeg" />
+    <Content Include="catering\images\prettyPhoto\dark_square\photo3.jpg" />
+    <Content Include="catering\images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="catering\images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="catering\images\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="catering\images\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="catering\images\prettyPhoto\dark_square\photo2.jpeg" />
+    <Content Include="catering\images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="catering\images\prettyPhoto\dark_square\s2.jpg" />
+    <Content Include="catering\images\prettyPhoto\dark_square\snapseed.jpeg" />
+    <Content Include="catering\images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="catering\images\prettyPhoto\default\admin.png" />
+    <Content Include="catering\images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="catering\images\prettyPhoto\default\loader.gif" />
+    <Content Include="catering\images\prettyPhoto\default\mainsearch1.jpg" />
+    <Content Include="catering\images\prettyPhoto\default\mainsearch2.jpg" />
+    <Content Include="catering\images\prettyPhoto\default\mainsearch3.jpg" />
+    <Content Include="catering\images\prettyPhoto\default\mainsearch4.jpg" />
+    <Content Include="catering\images\prettyPhoto\default\mainsearch5.jpg" />
+    <Content Include="catering\images\prettyPhoto\default\mainsearch6.jpeg" />
+    <Content Include="catering\images\prettyPhoto\default\memberlogo.png" />
+    <Content Include="catering\images\prettyPhoto\default\photo5copy1.jpeg" />
+    <Content Include="catering\images\prettyPhoto\default\photo6new.jpg" />
+    <Content Include="catering\images\prettyPhoto\default\slide2a.png" />
+    <Content Include="catering\images\prettyPhoto\default\sprite.png" />
+    <Content Include="catering\images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="catering\images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="catering\images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="catering\images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="catering\images\prettyPhoto\default\photo1.jpg" />
+    <Content Include="catering\images\prettyPhoto\downcouplepic.jpg" />
+    <Content Include="catering\images\prettyPhoto\facebook\begoli2.jpg" />
+    <Content Include="catering\images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="catering\images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="catering\images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="catering\images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="catering\images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="catering\images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="catering\images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="catering\images\prettyPhoto\facebook\muslim2.jpg" />
+    <Content Include="catering\images\prettyPhoto\facebook\images5.jpeg" />
+    <Content Include="catering\images\prettyPhoto\facebook\indianwed.jpg" />
+    <Content Include="catering\images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="catering\images\prettyPhoto\facebook\muslim.jpeg" />
+    <Content Include="catering\images\prettyPhoto\facebook\punjabi.jpeg" />
+    <Content Include="catering\images\prettyPhoto\facebook\rel1.jpeg" />
+    <Content Include="catering\images\prettyPhoto\facebook\rel2.jpeg" />
+    <Content Include="catering\images\prettyPhoto\facebook\rel3.jpeg" />
+    <Content Include="catering\images\prettyPhoto\facebook\rel4.png" />
+    <Content Include="catering\images\prettyPhoto\facebook\rel5.jpg" />
+    <Content Include="catering\images\prettyPhoto\facebook\rel6.png" />
+    <Content Include="catering\images\prettyPhoto\facebook\rel7.jpeg" />
+    <Content Include="catering\images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="catering\images\prettyPhoto\facebook\tamilian.jpeg" />
+    <Content Include="catering\images\prettyPhoto\images %281%29.png" />
+    <Content Include="catering\images\prettyPhoto\light_rounded\2053s.jpg" />
+    <Content Include="catering\images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="catering\images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="catering\images\prettyPhoto\light_rounded\clipart1.jpeg" />
+    <Content Include="catering\images\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="catering\images\prettyPhoto\light_rounded\indianwed1.jpg" />
+    <Content Include="catering\images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="catering\images\prettyPhoto\light_rounded\marathmolalook1.jpg" />
+    <Content Include="catering\images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="catering\images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="catering\images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="catering\images\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="catering\images\prettyPhoto\light_square\loader.gif" />
+    <Content Include="catering\images\prettyPhoto\light_square\sprite.png" />
+    <Content Include="catering\images\prettyPhoto\marathmolacouple.jpeg" />
+    <Content Include="catering\images\prettyPhoto\marathmolalook1.jpeg" />
+    <Content Include="catering\images\prettyPhoto\snapseed.jpeg" />
+    <Content Include="catering\images\row-bot-bg.jpg" />
+    <Content Include="catering\images\row-bot-tail.gif" />
+    <Content Include="catering\images\slider-img1.jpg" />
+    <Content Include="catering\images\slider-img2.jpg" />
+    <Content Include="catering\images\slider-img3.jpg" />
+    <Content Include="catering\images\slider-pagination.png" />
+    <Content Include="catering\index.html" />
+    <Content Include="catering\js\cufon-replace.js" />
+    <Content Include="catering\js\cufon-yui.js" />
+    <Content Include="catering\js\Dynalight_400.font.js" />
+    <Content Include="catering\js\FF-cash.js" />
+    <Content Include="catering\js\hover-image.js" />
+    <Content Include="catering\js\html5.js" />
+    <Content Include="catering\js\jquery-1.7.1.min.js" />
+    <Content Include="catering\js\jquery.bxSlider.js" />
+    <Content Include="catering\js\jquery.easing.1.3.js" />
+    <Content Include="catering\js\jquery.equalheights.js" />
+    <Content Include="catering\js\jquery.prettyPhoto.js" />
+    <Content Include="catering\js\tms-0.3.js" />
+    <Content Include="catering\js\tms_presets.js" />
+    <Content Include="catering\menu.html" />
+    <Content Include="catering\readme.txt" />
+    <Content Include="catering\shipping.html" />
+    <Content Include="frm_menu.aspx" />
+    <Content Include="MainSearch.aspx" />
+    <Content Include="Profile_Details.aspx" />
+    <Content Include="Reports\frm_cast_list.aspx" />
+    <Content Include="Reports\frm_educationwise_profile.aspx" />
+    <Content Include="Reports\frm_education_list.aspx" />
+    <Content Include="Reports\frm_castwise_profile.aspx" />
+    <Content Include="Reports\frm_MemberProfile_list.aspx" />
+    <Content Include="Reports\frm_paymentwise_date.aspx" />
+    <Content Include="Reports\frm_payment_list.aspx" />
+    <Content Include="Reports\frm_payment_receipt.aspx" />
+    <Content Include="Reports\frm_registration_list.aspx" />
+    <Content Include="Reports\frm_religionwise_profile.aspx" />
+    <Content Include="Reports\frm_religion_list.aspx" />
+    <Content Include="Reports\frm_subcast_list.aspx" />
+    <Content Include="Websearchby.aspx" />
+    <Content Include="WebSearchbyGender.aspx" />
+    <Content Include="Web_Admin_Login.aspx" />
+    <Content Include="Web_Cast.aspx" />
+    <Content Include="Web_Member_DashBoard.aspx" />
+    <Content Include="Web_Member_Login.aspx" />
+    <Content Include="Web_Education.aspx" />
+    <Content Include="Web_Member_Profile.aspx" />
+    <Content Include="Web_Payment.aspx" />
+    <Content Include="Web_Registration.aspx" />
+    <Content Include="web_Religion.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web_SearchbyCast.aspx" />
+    <Content Include="Web_SearchbyEducation.aspx" />
+    <Content Include="Web_SearchbySubCast.aspx" />
+    <Content Include="Web_Search_byReligion.aspx" />
+    <Content Include="Web_SubCast.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_menu.aspx.designer.vb">
+      <DependentUpon>frm_menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_menu.aspx.vb">
+      <DependentUpon>frm_menu.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MainSearch.aspx.designer.vb">
+      <DependentUpon>MainSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainSearch.aspx.vb">
+      <DependentUpon>MainSearch.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profile_Details.aspx.designer.vb">
+      <DependentUpon>Profile_Details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile_Details.aspx.vb">
+      <DependentUpon>Profile_Details.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_cast_list.aspx.designer.vb">
+      <DependentUpon>frm_cast_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_cast_list.aspx.vb">
+      <DependentUpon>frm_cast_list.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_educationwise_profile.aspx.designer.vb">
+      <DependentUpon>frm_educationwise_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_educationwise_profile.aspx.vb">
+      <DependentUpon>frm_educationwise_profile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_education_list.aspx.designer.vb">
+      <DependentUpon>frm_education_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_education_list.aspx.vb">
+      <DependentUpon>frm_education_list.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_castwise_profile.aspx.designer.vb">
+      <DependentUpon>frm_castwise_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_castwise_profile.aspx.vb">
+      <DependentUpon>frm_castwise_profile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_MemberProfile_list.aspx.designer.vb">
+      <DependentUpon>frm_MemberProfile_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_MemberProfile_list.aspx.vb">
+      <DependentUpon>frm_MemberProfile_list.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_paymentwise_date.aspx.designer.vb">
+      <DependentUpon>frm_paymentwise_date.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_paymentwise_date.aspx.vb">
+      <DependentUpon>frm_paymentwise_date.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_payment_list.aspx.designer.vb">
+      <DependentUpon>frm_payment_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_payment_list.aspx.vb">
+      <DependentUpon>frm_payment_list.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_payment_receipt.aspx.designer.vb">
+      <DependentUpon>frm_payment_receipt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_payment_receipt.aspx.vb">
+      <DependentUpon>frm_payment_receipt.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_registration_list.aspx.designer.vb">
+      <DependentUpon>frm_registration_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_registration_list.aspx.vb">
+      <DependentUpon>frm_registration_list.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_religionwise_profile.aspx.designer.vb">
+      <DependentUpon>frm_religionwise_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_religionwise_profile.aspx.vb">
+      <DependentUpon>frm_religionwise_profile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_religion_list.aspx.designer.vb">
+      <DependentUpon>frm_religion_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_religion_list.aspx.vb">
+      <DependentUpon>frm_religion_list.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\frm_subcast_list.aspx.designer.vb">
+      <DependentUpon>frm_subcast_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frm_subcast_list.aspx.vb">
+      <DependentUpon>frm_subcast_list.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_cast_list.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_cast_list.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_education_list.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_education_list.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_MemberProfile_list1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_MemberProfile_list.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_payment_list.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_payment_list.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_Payment_Receipt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Payment_Receipt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_profile_list.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_profile_list.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_registration_list.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_registration_list.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_religion_list.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_religion_list.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_subcast_list.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_subcast_list.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Websearchby.aspx.designer.vb">
+      <DependentUpon>Websearchby.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Websearchby.aspx.vb">
+      <DependentUpon>Websearchby.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WebSearchbyGender.aspx.designer.vb">
+      <DependentUpon>WebSearchbyGender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebSearchbyGender.aspx.vb">
+      <DependentUpon>WebSearchbyGender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Admin_Login.aspx.designer.vb">
+      <DependentUpon>Web_Admin_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Admin_Login.aspx.vb">
+      <DependentUpon>Web_Admin_Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Web_Cast.aspx.designer.vb">
+      <DependentUpon>Web_Cast.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Cast.aspx.vb">
+      <DependentUpon>Web_Cast.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Web_Member_DashBoard.aspx.designer.vb">
+      <DependentUpon>Web_Member_DashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Member_DashBoard.aspx.vb">
+      <DependentUpon>Web_Member_DashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Web_Member_Login.aspx.designer.vb">
+      <DependentUpon>Web_Member_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Member_Login.aspx.vb">
+      <DependentUpon>Web_Member_Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Web_Education.aspx.designer.vb">
+      <DependentUpon>Web_Education.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Education.aspx.vb">
+      <DependentUpon>Web_Education.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Web_Member_Profile.aspx.designer.vb">
+      <DependentUpon>Web_Member_Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Member_Profile.aspx.vb">
+      <DependentUpon>Web_Member_Profile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Web_Payment.aspx.designer.vb">
+      <DependentUpon>Web_Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Payment.aspx.vb">
+      <DependentUpon>Web_Payment.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Web_Registration.aspx.designer.vb">
+      <DependentUpon>Web_Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Registration.aspx.vb">
+      <DependentUpon>Web_Registration.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="web_Religion.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>web_Religion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web_Religion.aspx.designer.vb">
+      <DependentUpon>web_Religion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Web_SearchbyCast.aspx.designer.vb">
+      <DependentUpon>Web_SearchbyCast.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_SearchbyCast.aspx.vb">
+      <DependentUpon>Web_SearchbyCast.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Web_SearchbyEducation.aspx.designer.vb">
+      <DependentUpon>Web_SearchbyEducation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_SearchbyEducation.aspx.vb">
+      <DependentUpon>Web_SearchbyEducation.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Web_SearchbySubCast.aspx.designer.vb">
+      <DependentUpon>Web_SearchbySubCast.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_SearchbySubCast.aspx.vb">
+      <DependentUpon>Web_SearchbySubCast.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Web_Search_byReligion.aspx.designer.vb">
+      <DependentUpon>Web_Search_byReligion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Search_byReligion.aspx.vb">
+      <DependentUpon>Web_Search_byReligion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Web_SubCast.aspx.designer.vb">
+      <DependentUpon>Web_SubCast.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_SubCast.aspx.vb">
+      <DependentUpon>Web_SubCast.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_cast_list.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_cast_list.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_education_list.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_education_list.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_MemberProfile_list.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_MemberProfile_list1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_payment_list.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_payment_list.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Payment_Receipt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Payment_Receipt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_profile_list.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_profile_list.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_registration_list.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_registration_list.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_religion_list.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_religion_list.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_subcast_list.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_subcast_list.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Upload\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1049</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
