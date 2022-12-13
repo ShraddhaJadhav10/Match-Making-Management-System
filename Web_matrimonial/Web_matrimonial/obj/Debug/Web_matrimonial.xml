@@ -1,0 +1,1539 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Web_matrimonial
+</name>
+</assembly>
+<members>
+<member name="F:Web_matrimonial.Web_Customer_Login.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Customer_Login.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Customer_Login.txt_login_email">
+	<summary>
+txt_login_email control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Customer_Login.txt_mem_login_pass">
+	<summary>
+txt_mem_login_pass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Customer_Login.btn_mem_login">
+	<summary>
+btn_mem_login control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Customer_Login.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_prof_id">
+	<summary>
+txt_prof_id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.DropDownList4">
+	<summary>
+DropDownList4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_mangalik">
+	<summary>
+txt_mangalik control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_first_nm">
+	<summary>
+txt_first_nm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_drink">
+	<summary>
+txt_drink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_middle_nm">
+	<summary>
+txt_middle_nm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_veg_nonveg">
+	<summary>
+txt_veg_nonveg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_last_nm">
+	<summary>
+txt_last_nm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_smoke">
+	<summary>
+txt_smoke control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_dob">
+	<summary>
+txt_dob control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_height">
+	<summary>
+txt_height control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_gender">
+	<summary>
+txt_gender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_weight">
+	<summary>
+txt_weight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_maritalstatus">
+	<summary>
+txt_maritalstatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_complexion">
+	<summary>
+txt_complexion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.DropDownList2">
+	<summary>
+DropDownList2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_blood_group">
+	<summary>
+txt_blood_group control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.DropDownList3">
+	<summary>
+DropDownList3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_hobbies">
+	<summary>
+txt_hobbies control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_prof_add">
+	<summary>
+txt_prof_add control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_occupation">
+	<summary>
+txt_occupation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_mob_no">
+	<summary>
+txt_mob_no control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_annual_income">
+	<summary>
+txt_annual_income control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_tele_no">
+	<summary>
+txt_tele_no control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.txt_expectation">
+	<summary>
+txt_expectation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.FileUpload1">
+	<summary>
+FileUpload1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.btn_upload">
+	<summary>
+btn_upload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member.btn_save">
+	<summary>
+btn_save control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SearchbyEducation.form2">
+	<summary>
+form2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SearchbyEducation.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SearchbyEducation.btn_search">
+	<summary>
+btn_search control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SearchbyEducation.PlaceHolder1">
+	<summary>
+PlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.WebSearchbyGender.form2">
+	<summary>
+form2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.WebSearchbyGender.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.WebSearchbyGender.btn_search">
+	<summary>
+btn_search control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.WebSearchbyGender.PlaceHolder1">
+	<summary>
+PlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Registration.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Registration.txt_reg_id">
+	<summary>
+txt_reg_id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Registration.txt_mem_nm">
+	<summary>
+txt_mem_nm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Registration.txt_mem_city">
+	<summary>
+txt_mem_city control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Registration.txt_mem_email">
+	<summary>
+txt_mem_email control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Registration.txt_mem_pass">
+	<summary>
+txt_mem_pass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Registration.btn_save">
+	<summary>
+btn_save control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_MemberProfile_list.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_MemberProfile_list.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_MemberProfile_list.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_religionwise_profile.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_religionwise_profile.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_religionwise_profile.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_religionwise_profile.btn_show">
+	<summary>
+btn_show control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_religionwise_profile.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SearchbyCast.form2">
+	<summary>
+form2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SearchbyCast.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SearchbyCast.btn_search">
+	<summary>
+btn_search control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SearchbyCast.PlaceHolder1">
+	<summary>
+PlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_registration_list.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_registration_list.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_registration_list.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Education.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Education.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Education.txt_Eduction_id">
+	<summary>
+txt_Eduction_id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Education.txt_Education_nm">
+	<summary>
+txt_Education_nm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Education.btn_insert">
+	<summary>
+btn_insert control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Education.btn_update">
+	<summary>
+btn_update control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Education.btn_delete">
+	<summary>
+btn_delete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Education.btn_show">
+	<summary>
+btn_show control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Education.btn_search">
+	<summary>
+btn_search control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Education.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_education_list.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_education_list.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_education_list.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_educationwise_profile.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_educationwise_profile.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_educationwise_profile.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_educationwise_profile.btn_show">
+	<summary>
+btn_show control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_educationwise_profile.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Profile_Details.form2">
+	<summary>
+form2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Profile_Details.PlaceHolder1">
+	<summary>
+PlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Admin_Login.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Admin_Login.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Admin_Login.txt_admin_Login_nm">
+	<summary>
+txt_admin_Login_nm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Admin_Login.txt_admin_pass">
+	<summary>
+txt_admin_pass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Admin_Login.btn_login">
+	<summary>
+btn_login control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Payment.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Payment.txt_pay_id">
+	<summary>
+txt_pay_id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Payment.txt_reg_date">
+	<summary>
+txt_reg_date control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Payment.txt_reg_amount">
+	<summary>
+txt_reg_amount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Payment.btn_save">
+	<summary>
+btn_save control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_payment_list.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_payment_list.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_payment_list.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SubCast.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SubCast.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SubCast.txt_subcast_id">
+	<summary>
+txt_subcast_id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SubCast.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SubCast.txt_subcast_nm">
+	<summary>
+txt_subcast_nm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SubCast.btn_insert">
+	<summary>
+btn_insert control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SubCast.btn_update">
+	<summary>
+btn_update control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SubCast.btn_delete">
+	<summary>
+btn_delete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SubCast.btn_show">
+	<summary>
+btn_show control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SubCast.btn_search">
+	<summary>
+btn_search control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SubCast.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.MainSearch.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.MainSearch.btn_search_rel">
+	<summary>
+btn_search_rel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.MainSearch.btn_serachcast">
+	<summary>
+btn_serachcast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.MainSearch.btn_search_Edu">
+	<summary>
+btn_search_Edu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.MainSearch.btn_SearchGender">
+	<summary>
+btn_SearchGender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.MainSearch.btn_searchall">
+	<summary>
+btn_searchall control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_subcast_list.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_subcast_list.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_subcast_list.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial._Default.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial._Default.HyperLink2">
+	<summary>
+HyperLink2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial._Default.txt_religion_id">
+	<summary>
+txt_religion_id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial._Default.txt_religion_nm">
+	<summary>
+txt_religion_nm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial._Default.btn_insert">
+	<summary>
+btn_insert control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial._Default.btn_update">
+	<summary>
+btn_update control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial._Default.btn_delete">
+	<summary>
+btn_delete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial._Default.btn_show">
+	<summary>
+btn_show control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial._Default.btn_search">
+	<summary>
+btn_search control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial._Default.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SearchbySubCast.form2">
+	<summary>
+form2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SearchbySubCast.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SearchbySubCast.btn_search">
+	<summary>
+btn_search control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_SearchbySubCast.PlaceHolder1">
+	<summary>
+PlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_paymentwise_date.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_paymentwise_date.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_paymentwise_date.Calendar1">
+	<summary>
+Calendar1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_paymentwise_date.Calendar2">
+	<summary>
+Calendar2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_paymentwise_date.btn_show">
+	<summary>
+btn_show control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_paymentwise_date.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_religion_list.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_religion_list.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_religion_list.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_cast.HyperLink2">
+	<summary>
+HyperLink2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_cast.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_cast.txt_cast_id">
+	<summary>
+txt_cast_id control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_cast.txt_cast_nm">
+	<summary>
+txt_cast_nm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_cast.btn_insert">
+	<summary>
+btn_insert control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_cast.btn_update">
+	<summary>
+btn_update control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_cast.btn_delete">
+	<summary>
+btn_delete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_cast.btn_show">
+	<summary>
+btn_show control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_cast.btn_search">
+	<summary>
+btn_search control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_cast.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Search_byReligion.form2">
+	<summary>
+form2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Search_byReligion.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Search_byReligion.btn_search">
+	<summary>
+btn_search control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Search_byReligion.PlaceHolder1">
+	<summary>
+PlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_cast_list.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_cast_list.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_cast_list.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_genderwise_details.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_genderwise_details.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_genderwise_details.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_genderwise_details.btn_show">
+	<summary>
+btn_show control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_genderwise_details.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Websearchby.form2">
+	<summary>
+form2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Websearchby.DropDownList4">
+	<summary>
+DropDownList4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Websearchby.DropDownList2">
+	<summary>
+DropDownList2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Websearchby.DropDownList3">
+	<summary>
+DropDownList3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Websearchby.btn_show">
+	<summary>
+btn_show control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Websearchby.PlaceHolder1">
+	<summary>
+PlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_payment_receipt.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_payment_receipt.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_payment_receipt.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_payment_receipt.CrystalReportViewer1">
+	<summary>
+CrystalReportViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.HyperLink19">
+	<summary>
+HyperLink19 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.HyperLink20">
+	<summary>
+HyperLink20 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.HyperLink8">
+	<summary>
+HyperLink8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.HyperLink9">
+	<summary>
+HyperLink9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.HyperLink11">
+	<summary>
+HyperLink11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.HyperLink12">
+	<summary>
+HyperLink12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.HyperLink13">
+	<summary>
+HyperLink13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.HyperLink14">
+	<summary>
+HyperLink14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.HyperLink15">
+	<summary>
+HyperLink15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.HyperLink16">
+	<summary>
+HyperLink16 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.HyperLink17">
+	<summary>
+HyperLink17 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.frm_menu.HyperLink18">
+	<summary>
+HyperLink18 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member_DashBoard.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member_DashBoard.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Web_matrimonial.Web_Member_DashBoard.HyperLink2">
+	<summary>
+HyperLink2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
